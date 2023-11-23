@@ -8,10 +8,10 @@ const DessertBanner = () => {
             <div
                 style={{
                     position: 'absolute',
-                    background: `rgba(21, 21, 0, ${percentage * 1})`,
+                    background: `rgba(21, 21, 0, ${percentage * 0.5})`,
                     left: '',
-                    top: '65%',
-                    width: percentage * 700,
+                    top: '',
+                    width: percentage * 900,
                     height: percentage * 1000,
                 }}
             />

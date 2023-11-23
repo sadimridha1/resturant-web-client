@@ -1,10 +1,10 @@
-import { Parallax } from "react-parallax";
-import pizzaImg from '../../../assets/menu/pizza-bg.jpg'
+import { Parallax } from 'react-parallax';
+import saladImg from '../../../assets/menu/salad-bg.jpg';
 
-const PizzaBanner = () => {
+const SaladBanner = () => {
     return (
         <Parallax
-            bgImage={pizzaImg}
+            bgImage={saladImg}
             renderLayer={percentage => (
                 <div
                     style={{
@@ -22,7 +22,7 @@ const PizzaBanner = () => {
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold uppercase">Pizza</h1>
+                        <h1 className="mb-5 text-5xl font-bold uppercase">SALAD</h1>
                         <p className="mb-5">Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     </div>
                 </div>
@@ -31,4 +31,4 @@ const PizzaBanner = () => {
     );
 };
 
-export default PizzaBanner;
+export default SaladBanner;

@@ -3,12 +3,11 @@
 const MenuCover = ({img}) => {
     return (
         <div className="hero h-[500px] mb-14" style={{ backgroundImage: `url("${img}")` }}>
-            <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+            <div className=""></div>
+            <div className="hero-content text-center text-neutral-content opacity-80">
+                <div className=" lg:max-w-4xl bg-slate-600 px-14 md:px-52 py-7 md:py-20 ">
+                    <h1 className="mb-5 text-xl md:text-6xl text-white font-bold">OUR MENU</h1>
+                    <p className="mb-5 text-white">Would you like to try a dish?</p>
                 </div>
             </div>
         </div>
