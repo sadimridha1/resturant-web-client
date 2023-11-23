@@ -8,7 +8,7 @@ const Desserts = () => {
     return (
         <section>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-7 my-14">
                 {
                     desserts.map(item => <MenuItem key={item._id} item={item}></MenuItem>)
                 }
